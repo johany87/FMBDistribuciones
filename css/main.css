@@ -1,0 +1,12 @@
+.jumbotron{
+  background-image: url("img/general/lavado-de-carros.jpg");
+    /*background-color: red !important;*/
+}
+#first-stripe{
+  background-color: silver;
+  height: 450px;
+}
+#jb-first-stripe{
+  height: 400px;
+  background-image: image();
+}
