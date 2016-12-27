@@ -5,22 +5,70 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>FMB Distribucios</title>
+  <title>FMB Distribuciones</title>
 </head>
 <body>
-  <br>
-  <!--FIRST-STRIPE-->
-  <div class="container col-lg-12" id="first-stripe">
+  <!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/ FIRST-STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
+  <div class="container col-md-12" id="first-stripe">
     <br>
     <div class="jumbotron" id="jb-first-stripe">
-      <img src="img/general/LogoFMB.png" alt="Logo" class="col-md-7">
-      <div class="row col-md-5 text-right">
-      </div> <!--TEXT CONTACT-->
+      <img id="logo" src="img/general/LogoFMB.png" alt="Logo" class="col-md-8 col-md-offset-2">
+      <div class="col-md-10 col-md-offset-1 text-center text-muted" id="text-first-stripe">
+        <h3>
+          Hidrolavadoras <span>|</span>
+          Aspiradoras <span>|</span>
+          Espumadoras <span>|</span>
+          Repuestos
+        </h3>
+        <h3>
+          Compresores <span>|</span>
+          Repuestos
+        </h3>
+      </div>
     </div> <!--JUMBOTRON-->
-  </div> <!--CONTAINER-->
-  <!--FIRST-STRIPE-->
+  </div>
+  <!-- -/-/-/-/-/-/-/-/-/-/-/-/ END FIRST-STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
+
+  <!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/SECOND STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-->
+  <div class="col-xs-10 col-xs-offset-1" id="second-stripe">
+    <!--FIRST IMAGE-->
+    <img src="img/produtcs/imagen 15.jpg" alt="product1" class="col-md-4 img-product">
+    <div class="text-description col-md-8">
+      <br> <br> <br>
+      <h2 class="text-muted">LAVADO DE ALTA PRESION AGUA FRIA </h2>
+      <hr id="first-hr">
+      <br>
+      <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <!--END FIRST IMAGE-->
+
+    <!--SECOND IMAGE-->
+    <div class="col-md-12" id="second-stripe">
+      <!--FIRST IMAGE-->
+      <div class="text-description col-md-8">
+        <br> <br> <br>
+        <h2 class="text-muted">LAVADO DE ALTA PRESION AGUA FRIA </h2>
+        <hr id="second-hr">
+        <br>
+        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+          laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <img src="img/produtcs/imagen 3.jpg" alt="product1" class="col-md-4 img-product">
+    <!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/ END SECOND IMAGE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
+  </div>
+  <!--END SECOND STRIPE-->
+  <!-- -/-/-/-/-/-/-/-/-/-/-/-/ MAP -/-/-/-/-/-/-/-/-/-/-/-/-/-/-->
+  <div id="map" style="width:400px;height:400px">
+
+  </div>
+  <!-- -/-/-/-/-/-/-/-/-/-/-/-/ END MAP -/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
 </body>
 </html>
