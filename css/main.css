@@ -31,16 +31,40 @@ hr{
   font-family: 'Roboto Slab', serif;
 }
 #logo{
-  margin-top: 2em;
+  margin-top: 3em;
   margin-bottom: 3em;
 }
 #second-stripe{
-    /*background-color: silver;*/
-  padding: 30px;
+  /*margin-top: 1em;*/
+}
+#second-stripe2{
+  margin-top: 2em;
+}
+#first-rectangle{
+  left: 70px;
+}
+#second-rectangle{
+  left: 210px;
+}
+#third-rectangle{
+  left: 350px;
+}
+#fourth-rectangle{
+  left: 290px;
+}
+#fith-rectangle{
+  left: 420px;
+}
+p{
+  margin: 2em;
+  text-align: justify;
+}
+.stripe{
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 10px 10px 20px -9px rgba(140,138,140,1);
 }
 .img-product{
-  width: 300px;
-  height: 300px;
+  margin-top: 1em;
 }
 .text-description{
   font-family: 'Roboto Slab', serif;
