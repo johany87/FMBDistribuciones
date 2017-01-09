@@ -69,3 +69,17 @@ p{
 .text-description{
   font-family: 'Roboto Slab', serif;
 }
+#eco-title{
+  font-size: 500%;
+  color: white;
+  text-shadow: 3px 2px 0px #414236;
+}
+#eco-text{
+  color: white;
+  text-shadow: 3px 2px 0px #414236;
+}
+#eco-div{
+  position: absolute;
+  top: 1900px;
+  left: -20px;
+}
