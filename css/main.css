@@ -34,41 +34,6 @@ hr{
   margin-top: 3em;
   margin-bottom: 3em;
 }
-#second-stripe{
-  /*margin-top: 1em;*/
-}
-#second-stripe2{
-  margin-top: 2em;
-}
-#first-rectangle{
-  left: 70px;
-}
-#second-rectangle{
-  left: 210px;
-}
-#third-rectangle{
-  left: 350px;
-}
-#fourth-rectangle{
-  left: 290px;
-}
-#fith-rectangle{
-  left: 420px;
-}
-p{
-  margin: 2em;
-  text-align: justify;
-}
-.stripe{
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 10px 10px 20px -9px rgba(140,138,140,1);
-}
-.img-product{
-  margin-top: 1em;
-}
-.text-description{
-  font-family: 'Roboto Slab', serif;
-}
 #eco-title{
   font-size: 500%;
   color: white;
@@ -82,4 +47,18 @@ p{
   position: absolute;
   top: 1900px;
   left: -20px;
+}
+.inter-stripe{
+  margin: 2em;
+  text-align: justify;
+}
+.stripe{
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 10px 10px 20px -9px rgba(140,138,140,1);
+}
+.text-description{
+  font-family: 'Roboto Slab', serif;
+}
+.img-product{
+  min-height: 300px;
 }
