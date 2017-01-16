@@ -42,3 +42,71 @@
   </div>
 </div>
 <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ END SECOND STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- -->
+
+<div class="container">
+
+  <div class="row col-md-3">
+    <div class="ih-item square effect6 from_top_and_bottom img-product">
+      <a href="#">
+        <div class="img">
+          <img src="img/produtcs/imagen 3.jpg" alt="img">
+        </div>
+        <div class="info">
+          <h3>Hidrolavadoras Calor</h3>
+          <p class="text-center" style="font-size: 120%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="row col-md-3 col-md-offset-1 sq-product">
+    <div class="ih-item square effect6 from_top_and_bottom img-product">
+      <a href="#">
+        <div class="img">
+          <img src="img/produtcs/imagen 13.jpg" alt="img">
+        </div>
+        <div class="info">
+          <h3>Hidrolavadoras</h3>
+          <p class="text-center" style="font-size: 120%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="row col-md-3 col-md-offset-1">
+    <div class="ih-item square effect6 from_top_and_bottom img-product">
+      <a href="#">
+        <div class="img">
+          <img src="img/produtcs/DSC_0060.JPG" alt="img">
+        </div>
+        <div class="info">
+          <h3>Espumadoras</h3>
+          <p class="text-center" style="font-size: 120%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <p class="col-lg-12 inter-stripe"></p>
+  <div class="row col-md-3 col-md-offset-1">
+    <div class="ih-item square effect6 from_top_and_bottom img-product">
+      <a href="#">
+        <div class="img">
+          <img src="img/produtcs/DSC_0060.JPG" alt="img">
+        </div>
+        <div class="info">
+          <h3>Repuestos</h3>
+          <p class="text-center" style="font-size: 120%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
