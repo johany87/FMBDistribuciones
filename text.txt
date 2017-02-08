@@ -1,112 +1,19 @@
-<!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/ SECOND-STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
-<div class="col-lg-12" id="bg-products">
-  <div class="container col-lg-12" id="second-stripe">
-    <div class="row stripe col-md-3" id="first-rectangle">
-      <img class="img-product col-xs-12" src="img/produtcs/imagen 3.jpg" alt="hot-machine">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua.
-      </p>
-    </div>
-    <div class="row stripe col-md-3" id="second-rectangle">
-      <img class="img-product col-xs-12" src="img/produtcs/imagen 3.jpg" alt="hot-machine">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua.
-      </p>
-    </div>
-    <div class="row stripe col-md-3" id="third-rectangle">
-      <img class="img-product col-xs-12" src="img/produtcs/imagen 3.jpg" alt="hot-machine">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua.
-      </p>
-    </div>
+<!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/ THIRD-STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
+<p class="col-lg-12 inter-stripe"></p>
+<p class="col-lg-12 inter-stripe"></p>
+<div class="container" id="third-stripe">
+  <img src="img/general/preview.jpg" alt="eco-bg" class="col-md-12">
+  <div class="row" id="eco-div">
+    <br>
+    <h1 class="col-md-12 text-center" id="eco-title">Maquinas Ecologicas</h1>
+    <p class="col-lg-12"></p>
+    <h2 class="col-md-6 col-md-offset-3 text-justify" id="eco-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat.
+    </h2>
   </div>
-  <!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/  -->
-  <div class="container col-lg-12" id="second-stripe2">
-    <div class="row stripe col-md-3" id="fourth-rectangle">
-      <img class="img-product col-xs-12" src="img/produtcs/imagen 3.jpg" alt="hot-machine">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua.
-      </p>
-    </div>
-    <div class="row stripe col-md-3" id="fith-rectangle">
-      <img class="img-product col-xs-12" src="img/produtcs/imagen 3.jpg" alt="hot-machine">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua.
-      </p>
-    </div>
-  </div>
+</img>
 </div>
-<!-- /-/-/-/-/-/-/-/-/-/-/-/-/ END SECOND STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- -->
-
-<div class="container">
-
-  <div class="row col-md-3">
-    <div class="ih-item square effect6 from_top_and_bottom img-product">
-      <a href="#">
-        <div class="img">
-          <img src="img/produtcs/imagen 3.jpg" alt="img">
-        </div>
-        <div class="info">
-          <h3>Hidrolavadoras Calor</h3>
-          <p class="text-center" style="font-size: 120%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-      </a>
-    </div>
-  </div>
-
-  <div class="row col-md-3 col-md-offset-1 sq-product">
-    <div class="ih-item square effect6 from_top_and_bottom img-product">
-      <a href="#">
-        <div class="img">
-          <img src="img/produtcs/imagen 13.jpg" alt="img">
-        </div>
-        <div class="info">
-          <h3>Hidrolavadoras</h3>
-          <p class="text-center" style="font-size: 120%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-      </a>
-    </div>
-  </div>
-
-  <div class="row col-md-3 col-md-offset-1">
-    <div class="ih-item square effect6 from_top_and_bottom img-product">
-      <a href="#">
-        <div class="img">
-          <img src="img/produtcs/DSC_0060.JPG" alt="img">
-        </div>
-        <div class="info">
-          <h3>Espumadoras</h3>
-          <p class="text-center" style="font-size: 120%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-      </a>
-    </div>
-  </div>
-
-  <p class="col-lg-12 inter-stripe"></p>
-  <div class="row col-md-3 col-md-offset-1">
-    <div class="ih-item square effect6 from_top_and_bottom img-product">
-      <a href="#">
-        <div class="img">
-          <img src="img/produtcs/DSC_0060.JPG" alt="img">
-        </div>
-        <div class="info">
-          <h3>Repuestos</h3>
-          <p class="text-center" style="font-size: 120%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-      </a>
-    </div>
-  </div>
-</div>
+<p class="col-lg-12"></p>
+<p class="col-lg-12"></p>
+<!-- /-/-/-/-/-/-/-/-/-/-/-/-/ END THIRD STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- -->

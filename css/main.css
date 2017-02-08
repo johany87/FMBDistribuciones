@@ -3,7 +3,6 @@
 #first-stripe{
   height: 450px;
   background-image: url("http://propertymaintenanceworks.com.au/wp-content/uploads/2015/09/macedon-plumber.png");
-  margin-bottom: 1em;
 }
 #second-stripe{
   background-color: silver;
@@ -21,6 +20,23 @@
 #logo{
   margin-top: 3em;
   margin-bottom: 3em;
+}
+#tittle-us{
+  font-size: 400%;
+  font-family: 'Roboto Slab', serif;
+}
+#txt-us{
+  font-size: 200%;
+}
+#hr-contact{
+  width: 30%;
+  height: 1px;
+}
+#third-stripe{
+  height: 400px;
+  background-image: url("http://plumbriteservicestx.com/images/background/bg01.jpg");
+  margin-top: 7em;
+  opacity: 0.1;
 }
 #eco-title{
   font-size: 500%;
@@ -40,24 +56,8 @@
   margin: 2em;
   text-align: justify;
 }
-.stripe{
-  border-radius: 10px 10px 10px 10px;
-  box-shadow: 10px 10px 20px -9px rgba(140,138,140,1);
-}
-.text-description{
-  font-family: 'Roboto Slab', serif;
-}
-.img-products{
-  width: 100%;
-  height: 100%;
-}
-.sq-products{
-  position: relative;
-  padding: 1em;
-  width: 515px;
-  height: 100%;
-  display: inline-block;
-}
-.con-product{
-  left: 5px;
+#container2{
+  margin: 20px;
+  width: 200px;
+  height: 100px;
 }
