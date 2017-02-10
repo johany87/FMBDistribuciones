@@ -1,19 +1,47 @@
-<!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/ THIRD-STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
-<p class="col-lg-12 inter-stripe"></p>
-<p class="col-lg-12 inter-stripe"></p>
-<div class="container" id="third-stripe">
-  <img src="img/general/preview.jpg" alt="eco-bg" class="col-md-12">
-  <div class="row" id="eco-div">
-    <br>
-    <h1 class="col-md-12 text-center" id="eco-title">Maquinas Ecologicas</h1>
-    <p class="col-lg-12"></p>
-    <h2 class="col-md-6 col-md-offset-3 text-justify" id="eco-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat.
-    </h2>
-  </div>
-</img>
+<h4 class="col-md-6 text-justify text-muted" id="txt-us1">
+  FMB DISTRIBUCIONES es una empresa Colombiana unica en su tipo que posee la representación comercial de INTERPUMP GROUP,
+  líder mundial en la fabricación de bombas de alta presión en equipos de limpieza con agua para usos industriales.
+</h4>
+<h4 class="col-md-6 text-justify text-muted" id="text-us2">
+  Nuestros equipos de limpieza con agua a alta presión son equipos de concepción industrial para un lavado
+  integral y constante aplicable a todas aquellas industrias que necesitan equipos fiables, frente a
+  soluciones de limpieza permanente y ocasional.
+</h4>
+
+
+<!-- /-/-/-/-/-/-/-/-/-/-/-/-/ SECOND-STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
+<div class="container col-md-12" id="third-stripe">
+  <table id="table-info">
+    <tbody class="col-md-12">
+      <tr class="row">
+        <td class="col-md-6" id="td1">
+          <p class="text-center">
+            <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+          </p>
+          <p class="text-center">Carrera 74B # 24D - 78 Br. Modelia <br> Bogotá, Colombia </p>
+        </td>
+        <td class="col-md-6" id="td2">
+          <p class="text-center">
+            <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+          </p>
+          <p class="text-center">fmbdistribuciones@hotmail.com</p>
+        </td>
+      </tr>
+      <tr class="row">
+        <td class="col-md-6" id="td3">
+          <p class="text-center">
+            <i class="fa fa-phone-square fa-2x" aria-hidden="true"></i>
+          </p>
+          <p class="text-center">+57 1 4773828 <br> +57 1 2630721</p>
+        </td>
+        <td class="col-md-6" id="td4">
+          <p class="text-center">
+            <i class="fa fa-mobile fa-3x" aria-hidden="true"></i>
+          </p>
+          <p class="text-center"> 3112190408 | 314 4525863 <br> 310 5636374</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
-<p class="col-lg-12"></p>
-<p class="col-lg-12"></p>
-<!-- /-/-/-/-/-/-/-/-/-/-/-/-/ END THIRD STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/- -->
+<!-- /-/-/-/-/-/-/-/-/-/-/-/-/ END SECOND-STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/

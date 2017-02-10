@@ -1,4 +1,6 @@
-
+body{
+  width: 100%;
+}
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 .inter-stripe{
   margin: 2em;
@@ -9,8 +11,7 @@
   background-image: url("http://propertymaintenanceworks.com.au/wp-content/uploads/2015/09/macedon-plumber.png");
 }
 #second-stripe{
-  margin-top: 6em;
-  margin-bottom: 7em;
+  height: 300px;
 }
 #jb-first-stripe{
   height: 400px;
@@ -25,36 +26,40 @@
   margin-bottom: 3em;
 }
 #tittle-us{
-  font-size: 400%;
+  position: relative;
+  top: 120px;
+  left: 100px;
+  font-family: 'Roboto Slab', serif;
+  min-height: 100%;
+}
+#txt-us1{
+  font-family: 'Roboto Slab', serif;
+  margin-top: 2em;
+}
+#txt-us2{
   font-family: 'Roboto Slab', serif;
 }
-#txt-us{
-  margin-top: 2em;
-  font-size: 200%;
-}
 #hr-us{
-  top: 65px;
-  left: 575px;
-  position: absolute;
-  width: 15%;
+  position: relative;
+  top: 110px;
+  left: 100px;
+  width: 7%;
   border: 0;
   height: 0;
   box-shadow: 0 0 1px 1px red;
 }
 #third-stripe{
-  left: -30px;
-  width: 120%;
-  background-color: transparent;
+
+  height: 610px;
 }
 #img-info{
-  height: 600px;
-  filter: brightness(0.5);
-  filter: blur(3px);
+  margin: -50px;
+
 }
 #table-info{
   position: absolute;
-  top: 98px;
-  left: 300px;
+  top: 80px;
+  left: 270px;
   color: white;
 }
 td{
