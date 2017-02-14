@@ -1,15 +1,5 @@
-<h4 class="col-md-6 text-justify text-muted" id="txt-us1">
-  FMB DISTRIBUCIONES es una empresa Colombiana unica en su tipo que posee la representación comercial de INTERPUMP GROUP,
-  líder mundial en la fabricación de bombas de alta presión en equipos de limpieza con agua para usos industriales.
-</h4>
-<h4 class="col-md-6 text-justify text-muted" id="text-us2">
-  Nuestros equipos de limpieza con agua a alta presión son equipos de concepción industrial para un lavado
-  integral y constante aplicable a todas aquellas industrias que necesitan equipos fiables, frente a
-  soluciones de limpieza permanente y ocasional.
-</h4>
 
-
-<!-- /-/-/-/-/-/-/-/-/-/-/-/-/ SECOND-STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
+<!-- /-/-/-/-/-/-/-/-/-/-/-/-/ THIRD-STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
 <div class="container col-md-12" id="third-stripe">
   <table id="table-info">
     <tbody class="col-md-12">
@@ -44,4 +34,4 @@
     </tbody>
   </table>
 </div>
-<!-- /-/-/-/-/-/-/-/-/-/-/-/-/ END SECOND-STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+<!-- /-/-/-/-/-/-/-/-/-/-/-/-/ END THIRD-STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->

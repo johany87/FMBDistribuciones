@@ -2,15 +2,34 @@ body{
   width: 100%;
 }
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-.inter-stripe{
-  margin: 2em;
-  text-align: justify;
-}
 #first-stripe{
-  height: 450px;
+  height: 650px;
   background-image: url("http://propertymaintenanceworks.com.au/wp-content/uploads/2015/09/macedon-plumber.png");
+  background-size: 1400px 650px;
+  background-repeat: no-repeat;
+}
+/* make keyframes that tell the start state and the end state of our object */
+
+@-webkit-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; opacity: 1\9; /* IE9 only */ } to { opacity:1; } }
+
+.fade-in {
+    opacity:0;  /* make things invisible upon start */
+    -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:3s;
+    -moz-animation-duration:3s;
+    animation-duration:3s;
 }
 #second-stripe{
+  margin-top: 6em;
   height: 300px;
 }
 #jb-first-stripe{
@@ -22,49 +41,53 @@ body{
   font-family: 'Roboto Slab', serif;
 }
 #logo{
-  margin-top: 3em;
+  margin-top: 10em;
   margin-bottom: 3em;
 }
 #tittle-us{
   position: relative;
-  top: 120px;
-  left: 100px;
+  top: 50px;
   font-family: 'Roboto Slab', serif;
   min-height: 100%;
 }
-#txt-us1{
+#txt-us{
   font-family: 'Roboto Slab', serif;
-  margin-top: 2em;
-}
-#txt-us2{
-  font-family: 'Roboto Slab', serif;
+  margin-left: 2em;
 }
 #hr-us{
   position: relative;
-  top: 110px;
-  left: 100px;
-  width: 7%;
+  top: 35px;
+  width: 17%;
+  border: 0;
+  height: 0;
+  box-shadow: 0 0 1px 1px red;
+}
+#hr-us2{
+  position: relative;
+  top: 50px;
+  width: 10%;
   border: 0;
   height: 0;
   box-shadow: 0 0 1px 1px red;
 }
 #third-stripe{
-
-  height: 610px;
+  height: 550px;
+  background-image: url("http://plumbriteservicestx.com/images/background/bg01.jpg");
+  filter: grayscale(1);
 }
-#img-info{
-  margin: -50px;
-
+#carouse-img{
+  height: 100px;
 }
 #table-info{
   position: absolute;
-  top: 80px;
-  left: 270px;
+  width: 600px;
+  top: 25px;
+  left: 280px;
   color: white;
 }
 td{
-  width: 300px;
-  height: 250px;
+  width: 500px !important;
+  height: 250px !important;
   background-color: transparent;
 }
 #td1:hover{
@@ -95,13 +118,6 @@ td{
   color: black;
   transition:all 0.5s ease-in;
 }
-#bg-contact{
-  margin: 0;
-  padding: 0;
-  width: 120%;
-  height: 600px;
-}
-
 #eco-title{
   font-size: 500%;
   color: white;
