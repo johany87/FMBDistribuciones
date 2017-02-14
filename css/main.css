@@ -6,7 +6,6 @@ body{
   height: 650px;
   background-image: url("http://propertymaintenanceworks.com.au/wp-content/uploads/2015/09/macedon-plumber.png");
   background-size: 1400px 650px;
-  background-repeat: no-repeat;
 }
 /* make keyframes that tell the start state and the end state of our object */
 
@@ -75,60 +74,196 @@ body{
   background-image: url("http://plumbriteservicestx.com/images/background/bg01.jpg");
   filter: grayscale(1);
 }
-#carouse-img{
-  height: 100px;
-}
 #table-info{
+  background-color: rgba(255, 0, 0, 0.7);
   position: absolute;
-  width: 600px;
+  width: 700px;
   top: 25px;
-  left: 280px;
+  left: 300px;
   color: white;
 }
 td{
-  width: 500px !important;
-  height: 250px !important;
+  width: 100%;
+  height: 250px;
   background-color: transparent;
+  font-size: 120%;
 }
-#td1:hover{
-  background-color: rgba(255, 255, 255,0.7);
-  box-shadow: 1px 1px 22px 2px rgba(255,255,255,1);
-  border-radius: 50px 50px 50px 50px;
-  color: black;
-  transition:all 0.5s ease-in;
+.galery{
+  position: relative;
+  background-image: url("http://wallpapercave.com/wp/8IiSnSE.jpg");
 }
-#td2:hover{
-  background-color: rgba(255, 255, 255,0.7);
-  box-shadow: 1px 1px 22px 2px rgba(255,255,255,1);
-  border-radius: 50px 50px 50px 50px;
-  color: black;
-  transition:all 0.5s ease-in;
+.galeries{
+  padding: 1em;
+  /*background-color: rgba(215, 215, 215, 0.0);*/
 }
-#td3:hover{
-  background-color: rgba(255, 255, 255,0.7);
-  box-shadow: 1px 1px 22px 2px rgba(255,255,255,1);
-  border-radius: 50px 50px 50px 50px;
-  color: black;
-  transition:all 0.5s ease-in;
+.img{
+  width: 400px;
+  height: 350px;
+  border-radius: 20px 20px 20px 20px;
 }
-#td4:hover{
-  background-color: rgba(255, 255, 255,0.7);
-  box-shadow: 1px 1px 22px 2px rgba(255,255,255,1);
-  border-radius: 50px 50px 50px 50px;
-  color: black;
-  transition:all 0.5s ease-in;
+#img-1 .textbox {
+  width:380px;
+  height:320px;
+  position:absolute;
+  font-family: 'Roboto Slab', serif;
+  top:15px;
+  left:25px;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  border-radius:20px 20px 20px 20px;
+  background-color: rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+  box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
 }
-#eco-title{
-  font-size: 500%;
+#img-1:hover .textbox {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+#img-2 .textbox {
+  width:380px;
+  height:320px;
+  position:absolute;
+  font-family: 'Roboto Slab', serif;
+  top:15px;
+  left:25px;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  border-radius:20px 20px 20px 20px;
+  background-color: rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+  box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+}
+#img-2:hover .textbox {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+#img-3 .textbox {
+  width:380px;
+  height:320px;
+  position:absolute;
+  font-family: 'Roboto Slab', serif;
+  top:15px;
+  left:25px;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  border-radius:20px 20px 20px 20px;
+  background-color: rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+  box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+}
+#img-3:hover .textbox {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+#img-4 .textbox {
+  width:380px;
+  height:320px;
+  position:absolute;
+  font-family: 'Roboto Slab', serif;
+  top:15px;
+  left:25px;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  border-radius:20px 20px 20px 20px;
+  background-color: rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+  box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+}
+#img-4:hover .textbox {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+#img-5 .textbox {
+  width:380px;
+  height:320px;
+  position:absolute;
+  font-family: 'Roboto Slab', serif;
+  top:15px;
+  left:25px;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  border-radius:20px 20px 20px 20px;
+  background-color: rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+  box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+}
+#img-5:hover .textbox {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+#img-6 .textbox {
+  width:380px;
+  height:320px;
+  position:absolute;
+  font-family: 'Roboto Slab', serif;
+  top:15px;
+  left:25px;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  border-radius:20px 20px 20px 20px;
+  background-color: rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+  box-shadow: 0px 0px 15px 2px rgba(255,255,255,.75);
+}
+#img-6:hover .textbox {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.text {
   color: white;
-  text-shadow: 3px 2px 0px #414236;
+  padding-top: 50px;
+  font-size: 200%;
+  font-family: 'Roboto Slab', serif;
 }
-#eco-text{
+.text-product{
   color: white;
-  text-shadow: 3px 2px 0px #414236;
+  padding: 50px;
+  font-size: 150%;
+  font-family: 'Roboto Slab', serif;
 }
-#eco-div{
+.textbox {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+#progress-bar95{
+  margin-top: 9em;
+  left: 80px;
+}
+#progress-bar90{
+  margin: 9em;
+  left: 80px;;
+}
+#progress-bar80{
+  left: 10px;;
+}
+.progress-radial {
+  float: left;
+  margin-right: 30px;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: tomato;
+}
+.progress-radial .overlay {
   position: absolute;
-  top: 1900px;
-  left: -20px;
+  width: 200px;
+  height: 200px;
+  background-color: #fffde8;
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-top: 50px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 40px;
+}
+.progress-95 {
+  background-image: linear-gradient(72deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
+}
+.progress-90 {
+  background-image: linear-gradient(54deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
+}
+.progress-80 {
+  background-image: linear-gradient(18deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
 }

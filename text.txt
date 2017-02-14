@@ -1,18 +1,17 @@
-
-<!-- /-/-/-/-/-/-/-/-/-/-/-/-/ THIRD-STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
+<!-- /-/-/-/-/-/-/-/-/-/-/-/-/ INFO-STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
 <div class="container col-md-12" id="third-stripe">
   <table id="table-info">
     <tbody class="col-md-12">
       <tr class="row">
         <td class="col-md-6" id="td1">
           <p class="text-center">
-            <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-map-marker fa-3x" aria-hidden="true"></i>
           </p>
-          <p class="text-center">Carrera 74B # 24D - 78 Br. Modelia <br> Bogotá, Colombia </p>
+          <p class="text-center">Carrera 74B # 24D - 78 Br. Modelia - Bogotá, Colombia </p>
         </td>
         <td class="col-md-6" id="td2">
           <p class="text-center">
-            <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
           </p>
           <p class="text-center">fmbdistribuciones@hotmail.com</p>
         </td>
@@ -20,9 +19,9 @@
       <tr class="row">
         <td class="col-md-6" id="td3">
           <p class="text-center">
-            <i class="fa fa-phone-square fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-phone-square fa-3x" aria-hidden="true"></i>
           </p>
-          <p class="text-center">+57 1 4773828 <br> +57 1 2630721</p>
+          <p class="text-center">+57 1 4773828 | +57 1 2630721</p>
         </td>
         <td class="col-md-6" id="td4">
           <p class="text-center">
@@ -34,4 +33,4 @@
     </tbody>
   </table>
 </div>
-<!-- /-/-/-/-/-/-/-/-/-/-/-/-/ END THIRD-STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
+<!-- /-/-/-/-/-/-/-/-/-/-/-/-/ INFO-STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
