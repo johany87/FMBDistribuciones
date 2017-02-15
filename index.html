@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/4b14611884.js"></script>
-  <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+  <link rel="stylesheet" href="css\animate.css">
   <!--OWN LINKS-->
   <link rel="stylesheet" href="css/main.css">
   <meta charset="UTF-8">
@@ -16,18 +16,18 @@
 </head>
 <body>
   <!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/ LANDING PAGE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
-  <div iv class="container col-md-12 fade-in" id="first-stripe">
+  <div iv class="container col-md-12" id="first-stripe">
     <br>
     <div id="jb-first-stripe">
-        <img id="logo" src="img/general/LogoFMB.png" alt="Logo" class="col-md-8 col-md-offset-2">
+      <img id="logo" src="img/general/LogoFMB.png" alt="Logo" class="col-md-8 col-md-offset-2 animated bounceInLeft">
       <div class="col-md-10 col-md-offset-1 text-center text-muted" id="text-first-stripe">
-        <h3>
+        <h3 class="animated bounceInRight">
           Hidrolavadoras <span>|</span>
           Aspiradoras <span>|</span>
           Espumadoras <span>|</span>
           Repuestos
         </h3>
-        <h3>
+        <h3 class="animated bounceInUp">
           Compresores <span>|</span>
           Repuestos
         </h3>
@@ -36,7 +36,7 @@
   </div>
   <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ LADING PAGE  -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
   <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ STRIPE US -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
-  <div class="container col-md-12 fade-in" id="second-stripe">
+  <div class="container col-md-12" id="second-stripe">
     <div class="row">
       <div class="col-md-5">
         <h1 class="text-center text-muted" id="tittle-us">Nosotros</h1>
@@ -103,7 +103,7 @@
         <div class="textbox">
           <p class="text text-center">Bombas</p>
           <p class="text-product text-justify">Bombas Italianas <br> - Interpump <br> - Comet <br> - Leuco <br>
-          - Annovi Reverberi
+            - Annovi Reverberi
           </p>
         </div>
       </div>
@@ -111,17 +111,72 @@
   </div>
   <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ GALERY -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
   <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ PROGRES BAR -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
-  <div class="container col-md-12" >
-    <div class="progress-radial progress-95" id="progress-bar95">
-      <div class="overlay">95%</div>
+  <div class="container col-md-10 col-md-offset-1" id="progress-bar">
+    <div class="col-md-12">
+      <h2 class="col-md-4 txt-bar animated bounceInLeft" id="txt-bar1">Experiencia</h2>
+      <h2 class="col-md-4 txt-bar animated bounceInUp" id="txt-bar2">Atención</h2>
+      <h2 class="col-md-4 txt-bar animated bounceInRight" id="txt-bar3">Disponibilidad</h2>
     </div>
-    <div class="progress-radial progress-90" id="progress-bar90">
-      <div class="overlay">90%</div>
+    <div class="col-md-4 animated bounceInLeft">
+      <div class="progress-radial progress-95" id="progress-bar95">
+        <div class="overlay">95%</div>
+      </div>
     </div>
-    <div class="progress-radial progress-80" id="progress-bar80">
-      <div class="overlay">80%</div>
+    <div class="col-md-4 animated bounceInUp">
+      <div class="progress-radial progress-90 animated bounceInUp" id="progress-bar90">
+        <div class="overlay">90%</div>
+      </div>
+    </div>
+    <div class="col-md-4 animated bounceInRight">
+      <div class="progress-radial progress-90 animated bounceInRight" id="progress-bar80">
+        <div class="overlay">90%</div>
+      </div>
     </div>
   </div>
   <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ PROGRES BAR -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
+  <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ INFORMATION -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
+  <div class="container col-md-12" id="third-stripe">
+    <table id="table-info">
+      <tbody class="col-md-12">
+        <tr class="row">
+          <td class="col-md-6" id="td1">
+            <p class="text-center">
+              <i class="fa fa-map-marker fa-3x" aria-hidden="true"></i>
+            </p>
+            <p class="text-center">Carrera 74B # 24D - 78 Br. Modelia - Bogotá, Colombia </p>
+          </td>
+          <td class="col-md-6" id="td2">
+            <p class="text-center">
+              <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+            </p>
+            <p class="text-center">fmbdistribuciones@hotmail.com</p>
+          </td>
+        </tr>
+        <tr class="row">
+          <td class="col-md-6" id="td3">
+            <p class="text-center">
+              <i class="fa fa-phone-square fa-3x" aria-hidden="true"></i>
+            </p>
+            <p class="text-center">+57 1 4773828 | +57 1 2630721</p>
+          </td>
+          <td class="col-md-6" id="td4">
+            <p class="text-center">
+              <i class="fa fa-mobile fa-3x" aria-hidden="true"></i>
+            </p>
+            <p class="text-center"> 3112190408 | 314 4525863 <br> 310 5636374</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ INFORMATION -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
+  <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ CREDITS -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
+  <div class="col-md-12 text-center text-muted" id="credits">
+    <p>
+      2016 @ FMB Distribuciones | Derechos reservados <br>
+      Creado por JNA Ingeniería Informática
+    </p>
+  </div>
+  <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ CREDITS -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
 </body>
 </html>
