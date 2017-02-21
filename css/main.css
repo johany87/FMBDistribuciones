@@ -77,20 +77,19 @@ td{
   position: relative;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/77/Pressure_Wash.JPG");
   background-position: center;
-  /*background-image: url("http://wallpapercave.com/wp/8IiSnSE.jpg");*/
 }
 .galeries{
   padding: 1em;
   /*background-color: rgba(215, 215, 215, 0.0);*/
 }
 .img{
-  width: 400px;
+  width: 370px;
   height: 350px;
   border-radius: 20px 20px 20px 20px;
-  background-color: rgba(180, 180, 180, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 #img-1 .textbox {
-  width:380px;
+  width:350px;
   height:320px;
   position:absolute;
   font-family: 'Roboto Slab', serif;
@@ -108,7 +107,7 @@ td{
   transform: scale(1);
 }
 #img-2 .textbox {
-  width:380px;
+  width:350px;
   height:320px;
   position:absolute;
   font-family: 'Roboto Slab', serif;
@@ -126,7 +125,7 @@ td{
   transform: scale(1);
 }
 #img-3 .textbox {
-  width:380px;
+  width:350px;
   height:320px;
   position:absolute;
   font-family: 'Roboto Slab', serif;
@@ -145,7 +144,7 @@ td{
 }
 
 #img-4 .textbox {
-  width:380px;
+  width:350px;
   height:320px;
   position:absolute;
   font-family: 'Roboto Slab', serif;
@@ -163,7 +162,7 @@ td{
   transform: scale(1);
 }
 #img-5 .textbox {
-  width:380px;
+  width:350px;
   height:320px;
   position:absolute;
   font-family: 'Roboto Slab', serif;
@@ -181,7 +180,7 @@ td{
   transform: scale(1);
 }
 #img-6 .textbox {
-  width:380px;
+  width:350px;
   height:320px;
   position:absolute;
   font-family: 'Roboto Slab', serif;
@@ -272,7 +271,7 @@ td{
 }
 #formulario{
   margin-top: 9em;
-  margin-bottom: 6em;
+  margin-bottom: 2em;
   background-color: silver;
   height: 500px;
   padding-top: 5em;
@@ -317,8 +316,9 @@ td{
   font-size: 120%;
 }
 #credits{
-  margin-top: 6em;
-  margin-bottom: auto;
+  margin-top: 10em;
   font-family: 'Roboto Slab', serif;
   height: 65px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
