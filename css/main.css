@@ -84,8 +84,9 @@ td{
 }
 .galery{
   position: relative;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/77/Pressure_Wash.JPG");
-  background-position: center;
+  background-image: url("http://www.compcofire.co.uk/wp-content/uploads/2015/05/fogtec-spray.jpg");
+  /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/77/Pressure_Wash.JPG");*/
+  /*background-position: center;*/
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,6 +94,7 @@ td{
 .galeries{
   padding: 1em;
   /*background-color: rgba(215, 215, 215, 0.0);*/
+  left: 15px;
 }
 .img{
   width: 370px;
