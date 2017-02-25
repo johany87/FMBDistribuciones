@@ -47,8 +47,8 @@
     <div class="row">
       <div class="col-md-4 wow bounceInLeft" data-wow-delay="0.5s">
         <h1 class=" wow text-center text-muted" id="tittle-us">Nosotros</h1>
-        <hr class="wow bounceInLeft" data-wow-delay="0.5s" id="hr-us">
-        <hr class="wow bounceInLeft" data-wow-delay="0.5s" id="hr-us2">
+        <hr class="wow bounceInLeft" data-wow-delay="0.7s" id="hr-us">
+        <hr class="wow bounceInLeft" data-wow-delay="0.9s" id="hr-us2">
         <br> <br>
       </div>
       <div class="col-md-7 wow bounceInRight" data-wow-delay="1s">
@@ -66,7 +66,7 @@
   </div>
   <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ STRIPE US -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
   <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ GALERY -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
-  <div class="container col-md-12 galery">
+  <div class="container col-md-12" id="galery">
     <div class="col-md-12 galeries">
       <div class="col-md-4" id="img-1">
         <img src="img\Imagen2.png" alt="" class="img">
@@ -182,30 +182,58 @@
     <div class="row col-md-12" id="team-stripe">
       <div align="center" class="col-md-3 wow fadeInDown" data-wow-delay="0.5s">
         <img src="img\FernandoMonroy.jpg" alt="person" class="img-team">
-        <h3 class="text-center">Fernando Monroy</h3>
-        <h5 class="text-center">Gerente General</h5>
+        <h3 class="text-center text-muted">Fernando Monroy</h3>
+        <h5 class="text-center text-muted">Gerente General</h5>
       </div>
       <div align="center" class="col-md-3 wow fadeInDown" data-wow-delay="1s">
         <img src="img\Sin título1.png" alt="person" class="img-team">
-        <h3 class="text-center">Mirian Morales</h3>
-        <h5 class="text-center">Sub Gerente</h5>
+        <h3 class="text-center text-muted">Miryam Morales</h3>
+        <h5 class="text-center text-muted">Sub Gerente</h5>
       </div>
       <div align="center" class="col-md-3 wow fadeInDown" data-wow-delay="1.5s">
         <img src="img\gordis.jpg" alt="person" class="img-team">
-        <h3 class="text-center">Camilo Monroy</h3>
-        <h5 class="text-center">Director Administrativo</h5>
+        <h3 class="text-center text-muted">Camilo Monroy</h3>
+        <h5 class="text-center text-muted">Director Administrativo</h5>
       </div>
       <div align="center" class="col-md-3 wow fadeInDown" data-wow-delay="2s">
         <img src="img\Sin título2.png" alt="person" class="img-team">
-        <h3 class="text-center">Jorge Moreno</h3>
-        <h5 class="text-center">Comercial</h5>
+        <h3 class="text-center text-muted">Jorge Moreno</h3>
+        <h5 class="text-center text-muted">Comercial</h5>
       </div>
     </div>
   </div>
   <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ TEAM FMB -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
-  <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ GOOGLE MAPS -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
-  <div id="map"></div>
-  <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ GOOGLE MAPS -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
+  <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ CONTACT-FORM -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
+  <form class="container form-inline col-md-12" id="formulario">
+    <h1 class="text-center col-md-12">
+      CONTÁCTANOS
+    </h1>
+    <div class="row col-md-12">
+      <div class="form-group col-md-4">
+        <input type="text" class="form-control" id="name" placeholder="Nombre">
+      </div>
+      <div class="form-group col-md-4">
+        <input type="email" class="form-control" id="email" placeholder="e-mail">
+      </div>
+    </div>
+    <div class=" row col-md-12">
+      <div class="form-group col-md-12">
+        <input type="email" id="subject" class="form-control" placeholder="Tema">
+      </div>
+    </div>
+    <div class="row col-md-12">
+      <div class="form-group col-md-12">
+        <input type="text" id="text" class="form-control" placeholder="Mensaje">
+      </div>
+    </div>
+    <div class="row col-md-12">
+      <input type="submit" class="btn btn-danger col-md-1" value="Enviar" id="submit">
+    </div>
+    <div class="row col-md-12">
+      <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d2225.3479383065046!2d-74.11769736357618!3d4.667359868330299!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x8e3f9b8206311c91%3A0xc93175d497290259!2sCra.+74b+%2324d-2+a+24d-98%2C+Bogot%C3%A1!3m2!1d4.6676041999999995!2d-74.1172854!5e0!3m2!1ses-419!2sco!4v1487966908787" allowfullscreen></iframe>
+    </div>
+  </form>
+  <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ CONTACT-FORM -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
   <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ CREDITS -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
   <div class="col-md-12 text-center" id="credits">
     <h4>

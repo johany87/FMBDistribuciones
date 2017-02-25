@@ -8,7 +8,6 @@ body{
 #first-stripe{
   height: 650px;
   background-image: url("http://propertymaintenanceworks.com.au/wp-content/uploads/2015/09/macedon-plumber.png");
-  /*background-size: 1400px 650px;*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -83,32 +82,33 @@ td{
   background-color: transparent;
   font-size: 120%;
 }
-.galery{
+#galery{
   position: relative;
-  background-image: url("http://www.compcofire.co.uk/wp-content/uploads/2015/05/fogtec-spray.jpg");
-  /*background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/77/Pressure_Wash.JPG");*/
-  /*background-position: center;*/
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-image: url("https://images4.alphacoders.com/831/thumb-1920-83196.jpg");
+  background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .galeries{
   padding: 1em;
-  /*background-color: rgba(215, 215, 215, 0.0);*/
   left: 15px;
 }
 .img{
   width: 370px;
-  height: 350px;
+  left: 65px;
+  height: 340px;
   border-radius: 20px 20px 20px 20px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgb(255, 255, 255);
 }
 #img-1 .textbox {
   width:350px;
   height:320px;
   position:absolute;
   font-family: 'Roboto Slab', serif;
-  top:15px;
+  top:10px;
   left:25px;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -126,7 +126,7 @@ td{
   height:320px;
   position:absolute;
   font-family: 'Roboto Slab', serif;
-  top:15px;
+  top:10px;
   left:25px;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -144,7 +144,7 @@ td{
   height:320px;
   position:absolute;
   font-family: 'Roboto Slab', serif;
-  top:15px;
+  top:10px;
   left:25px;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -163,7 +163,7 @@ td{
   height:320px;
   position:absolute;
   font-family: 'Roboto Slab', serif;
-  top:15px;
+  top:10px;
   left:25px;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -181,7 +181,7 @@ td{
   height:320px;
   position:absolute;
   font-family: 'Roboto Slab', serif;
-  top:15px;
+  top:10px;
   left:25px;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -199,7 +199,7 @@ td{
   height:320px;
   position:absolute;
   font-family: 'Roboto Slab', serif;
-  top:15px;
+  top:10px;
   left:25px;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -281,60 +281,70 @@ td{
 }
 .img-team{
   border: 8px solid white;
-  box-shadow: 0px 0px 0px 4px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.75);
   border-radius: 100px 100px 100px 100px;
   width: 200px;
+  height: 200px;
 }
 #formulario{
-  margin-top: 9em;
-  margin-bottom: 2em;
-  background-color: silver;
-  height: 500px;
+  height: 1150px;
   padding-top: 5em;
-  background-image: url("http://cdn.pcwallart.com/images/urban-wallpaper-1.jpg");
+  background-image: url("https://trafficbuilders.us/wp-content/uploads/contact-form-background.png");
+  background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+form .row{
+  left: 230px;
+}
+form h1{
   color: white;
 }
-#nombre{
-  width: 299px;
+#name:focus, #email:focus, #subject:focus, #text:focus{
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+#name{
+  width: 100%;
   height: 50px;
-  background-color: rgba(0, 0, 0, 0.1);
-  border: 0px solid white;
-  border-bottom: 1px solid red;
+  margin-top: 2em;
   font-size: 140%;
+  left: 50px;
   color: white;
 }
 #email{
+  margin-top: 2em;
   width: 100%;
   height: 50px;
-  background-color: rgba(0, 0, 0, 0.1);
-  border: 0px solid white;
-  border-bottom: 1px solid red;
   font-size: 140%;
-  color: white;
 }
-#mensaje{
-  width: 100%;
+#subject{
+  width: 830px;
+  height: 50px;
+  font-size: 140%;
+  margin-top: 20px;
+}
+#text{
+  margin-top: 20px;
+  width: 830px;
   height: 200px;
-  background-color: rgba(0, 0, 0, 0.1);
-  border: 0px solid white;
-  border-bottom: 1px solid red;
   font-size: 140%;
 }
-#div-buttons{
-  margin-top: 2em;
+h1{
+  font-family: 'Roboto Slab', serif;
+  font-size: 50px;
 }
-.button{
-  width: 50%;
-  border-radius: 30px 30px 30px 30px;
-  background-color: rgba(241, 34, 34, 0.8);
-  border: 0px solid rgb(241, 34, 34);
-  font-size: 120%;
+#submit{
+  margin-top: 3em;
+  margin-left: 370px;
 }
 #map{
-  width: 100%;
-  height: 500px;
-  background-color: grey;
+  margin-top: 50px;
+  width: 835px;
+  height: 400px;
+  margin-left: 10px;
 }
 #credits{
   margin-top: 1em;
