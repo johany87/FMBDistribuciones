@@ -12,9 +12,6 @@
   <script type="text/javascript" src="js\wow.min.js"></script>
   <script type="text/javascript" src="js\main.js"></script>
   <link rel="stylesheet" href="css/main.css">
-  <!-- GOOGLE MAPS-->
-  <script async defer src="https://maps.googleapis.com/maps/api/js?&callback=myMap"></script>
-  <script type="text/javascript" src="js\map.js"></script>
   <!--META DATAS-->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +21,6 @@
 <body>
   <!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/ LANDING PAGE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
   <div iv class="container col-md-12" id="first-stripe">
-    <br>
     <div id="jb-first-stripe">
       <img id="logo" src="img/LogoFMB.png" alt="Logo" class="col-md-8 col-md-offset-2 animated bounceInLeft">
       <div class="col-md-10 col-md-offset-1 text-center text-muted" id="text-first-stripe">
@@ -43,7 +39,7 @@
   </div>
   <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ LADING PAGE  -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
   <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ STRIPE US -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
-  <div class="container col-md-12" id="second-stripe">
+  <div class="container col-md-12" id="stripe-us">
     <div class="row">
       <div class="col-md-4 wow bounceInLeft" data-wow-delay="0.5s">
         <h1 class=" wow text-center text-muted" id="tittle-us">Nosotros</h1>
@@ -66,7 +62,7 @@
   </div>
   <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ STRIPE US -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
   <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ GALERY -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
-  <div class="container col-md-12" id="galery">
+  <div class="container col-md-12" id="galery-stripe">
     <div class="col-md-12 galeries">
       <div class="col-md-4" id="img-1">
         <img src="img\Imagen2.png" alt="" class="img">
@@ -142,7 +138,7 @@
   </div>
   <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ PROGRES BAR -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
   <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ INFORMATION -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
-  <div class="container col-md-12" id="third-stripe">
+  <div class="container col-md-12" id="info-stripe">
     <table id="table-info">
       <tbody class="col-md-12">
         <tr class="row">
@@ -204,32 +200,14 @@
   </div>
   <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ TEAM FMB -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
   <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ CONTACT-FORM -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
-  <form action="php/contacto.php" method="post" class="container form-inline col-md-12" id="formulario">
-    <div class="row col-md-12">
-      <div class="form-group col-md-4">
-        <input type="text" required="required" class="form-control" id="nombre" name="nombre" placeholder="Nombre">
-      </div>
-      <div class="form-group col-md-4">
-        <input type="email" required="required" class="form-control" id="email" name="email" placeholder="e-mail">
-      </div>
-    </div>
-    <div class=" row col-md-12">
-      <div class="form-group col-md-12">
-        <input type="text" required="required" id="tema" name="tema" class="form-control" placeholder="Tema">
-      </div>
-    </div>
-    <div class="row col-md-12">
-      <div class="form-group col-md-12">
-        <input type="text" required="required" id="mensaje" class="form-control" name="mensaje" placeholder="Mensaje">
-      </div>
-    </div>
-    <div class="row col-md-12">
-      <input type="submit" class="btn btn-danger col-md-1" value="Enviar" name="enviar" id="enviar">
-    </div>
-    <div class="row col-md-12">
+  <div id="contact-stripe" class="row col-md-12" >
+    <section id="text-contact" class="col-md-10 col-md-offset-1">
+      <h1 class="text-center col-md-12">CONTÁCTANOS</h1>
+      <h3 class="text-center col-md-12">¿Tienes dudas? &nbsp - &nbsp ¿Quieres cotizar?</h3>
+      <a href="http://www.123contactform.com/form-2512289/Contact-Lead-Form" target="_blank"><button type="button" class="col-md-2 btn btn-default">Escribenos</button></a>
       <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d2225.3479383065046!2d-74.11769736357618!3d4.667359868330299!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x8e3f9b8206311c91%3A0xc93175d497290259!2sCra.+74b+%2324d-2+a+24d-98%2C+Bogot%C3%A1!3m2!1d4.6676041999999995!2d-74.1172854!5e0!3m2!1ses-419!2sco!4v1487966908787" allowfullscreen></iframe>
-    </div>
-  </form>
+    </section>
+  </div>
   <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ CONTACT-FORM -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
   <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ CREDITS -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
   <div class="col-md-12 text-center" id="credits">
