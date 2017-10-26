@@ -20,7 +20,8 @@
   <div class="row col-md-12">
     <input type="submit" class="btn btn-danger col-md-1" value="Enviar" name="enviar" id="enviar">
   </div>
-  <div class="row col-md-12" >
-    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d2225.3479383065046!2d-74.11769736357618!3d4.667359868330299!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x8e3f9b8206311c91%3A0xc93175d497290259!2sCra.+74b+%2324d-2+a+24d-98%2C+Bogot%C3%A1!3m2!1d4.6676041999999995!2d-74.1172854!5e0!3m2!1ses-419!2sco!4v1487966908787" allowfullscreen></iframe>
-  </div>
 </form>
+<a href="http://www.123contactform.com/form-2512289/Contact-Lead-Form" target="_blank"><button type="button" class="col-md-2 btn btn-default">Escribenos</button></a>
+<div class="row col-md-12" >
+<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d2225.3479383065046!2d-74.11769736357618!3d4.667359868330299!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x8e3f9b8206311c91%3A0xc93175d497290259!2sCra.+74b+%2324d-2+a+24d-98%2C+Bogot%C3%A1!3m2!1d4.6676041999999995!2d-74.1172854!5e0!3m2!1ses-419!2sco!4v1487966908787" allowfullscreen></iframe>
+</div>
