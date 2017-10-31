@@ -30,10 +30,10 @@
   color: black;
 }
 #logo{
-  min-width: 20%;
-  max-width: 80%;
+  /*min-width: 20%;*/
+  /*max-width: 80%;*/
   height: auto;
-  margin-top: 10em;
+  margin-top: 10%;
   margin-bottom: 3em;
 }
 #tittle-us{
@@ -65,6 +65,7 @@
 }
 #info-stripe{
   height: 550px;
+  /*height: 200%;*/
   background-image: url("../img/maxresdefault.jpg");
   /*background-image: url("http://plumbriteservicestx.com/images/background/bg01.jpg");*/
   /*filter: grayscale(1);*/
@@ -80,7 +81,7 @@
   position: absolute;
   width: 700px;
   top: 25px;
-  left: 300px;
+  left: 24%;
   color: white;
 }
 td{
@@ -103,7 +104,8 @@ td{
 }
 .galeries{
   padding: 1em;
-  left: 15px;
+  /*left: 15px;*/
+  left: 1%;
 }
 .img{
   width: 370px;
@@ -224,14 +226,8 @@ td{
 }
 .text {
   color: white;
-  padding-top: 50px;
+  padding-top: 40%;
   font-size: 200%;
-  font-family: 'Roboto Slab', serif;
-}
-.text-product{
-  color: white;
-  padding: 50px;
-  font-size: 150%;
   font-family: 'Roboto Slab', serif;
 }
 .textbox {
@@ -280,9 +276,9 @@ td{
   left: 10px;
 }
 #progress-bar{
-  left: 60px;
-  margin-top: 7em;
-  margin-bottom: 10em;
+  left: 5%;
+  margin-top: 10%;
+  margin-bottom: 13%;
 }
 #team-stripe{
   margin-top: 10em;
@@ -325,11 +321,14 @@ section h1{
   font-size: 20px !important;
 }
 #map{
-  margin-top: 8em;
-  width: 955px;
+  margin-top: 10%;
+  /*width: 955px;*/
+  width: 90%;
   height: 400px;
-  margin-left: 80px;
-  margin-bottom: 3em;
+  /*margin-left: 80px;*/
+  margin-left: 7%;
+  /*margin-bottom: 3em;*/
+  margin-bottom: 5%;
 }
 #credits{
   margin-top: 1em;
