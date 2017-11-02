@@ -7,8 +7,8 @@
 #first-stripe{
   width: 100%;
   height: 650px;
-  /*background-image: url("https://article.images.consumerreports.org/prod/content/dam/cro/news_articles/home_garden/CR-BG-Pressure-Washer-Hero-08-23");*/
   background-image: url("../img/high-pressure-cleaner-washer-image.jpg");
+  /*background-image: url("../img/high-pressure-cleaner-washer-image - copia.jpg");*/
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -75,7 +75,7 @@
 }
 #info-stripe{
   width: 100%;
-  height: 550px;
+  height: 560px;
   /*height: 200%;*/
   background-image: url("../img/maxresdefault.jpg");
   /*background-image: url("http://plumbriteservicestx.com/images/background/bg01.jpg");*/
@@ -107,13 +107,12 @@ td{
   position: relative;
   padding-top: 2em;
   padding-bottom: 2em;
-  /*background-image: url("https://img.huffingtonpost.com/asset/58ee951316000029006581fc.jpg?ops=scalefit_820_noupscale");*/
-  background-image: url("http://www.buildingsupplycontroller.com/wp-content/uploads/2013/04/lumber-background3.jpg");
-  /*background-image: url("../img/thumb-1920-83196.jpg");*/
-  background-position: center;
+  background-image: url("../img/lumber-background3.jpg");
+  /*background-image: url("http://www.buildingsupplycontroller.com/wp-content/uploads/2013/04/lumber-background3.jpg");*/
+  /*background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 }
 .galeries{
   padding: 1em;
@@ -300,6 +299,7 @@ td{
   margin-top: 10em;
   margin-bottom: 10em;
 }
+
 .img-team{
   border: 8px solid white;
   box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.75);
@@ -309,13 +309,27 @@ td{
 }
 #contact-stripe{
   height: 100%;
-  background-image: url("../img/contact-form-background.png");
-  /*background-image: url("https://trafficbuilders.us/wp-content/uploads/contact-form-background.png");*/
+  width: 100%;
+  top: 4em;
+  /*background-image: url("../img/Contact-650x487.jpg");*/
+  background-image: url("http://karlburkeracing.biz/wp-content/uploads/2017/10/White-Background-89.jpg");
   background-size: cover;
-  background-position: center;
+  /*background-position: center;*/
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
 }
+#eco-stripe{
+  bottom: 10%;
+  width: 100%;
+  height: 750px;
+  background-image: url("../img/ecologia2.jpg");
+  background-repeat: no-repeat;
+  /*background-color: silver;*/
+  margin-bottom: 2em;
+}
+/*#ecobg{
+  width: 100%;
+}*/
 #formulario{
   top: 50px;
 }
@@ -344,11 +358,10 @@ section h1{
   /*margin-left: 80px;*/
   margin-left: 7%;
   /*margin-bottom: 3em;*/
-  margin-bottom: 5%;
+  margin-bottom: 4em;
 }
 #credits{
-  margin-top: 1em;
+  margin-top: 6em;
   font-family: 'Yantramanav', sans-serif;
   height: 65px;
-  color: black;
 }
