@@ -15,8 +15,12 @@
   background-attachment: fixed;
 }
 #stripe-us{
-  margin-top: 10em;
-  height: 400px;
+  margin-top: 14em;
+  height: 500px;
+}
+#small{
+  font-size: 101%;
+  color: #b82207;
 }
 #jb-first-stripe{
   width: 100%;
@@ -262,33 +266,37 @@ td{
   position: absolute;
   width: 150px;
   height: 150px;
-  background-color: #fffde8;
+  background-color: #ffffff;
   border-radius: 50%;
   margin-left: 25px;
   margin-top: 25px;
   text-align: center;
   line-height: 150px;
   font-size: 40px;
+  border: 1px solid #b82207;
 }
 .progress-95 {
-  background-image: linear-gradient(72deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
+  background-image: linear-gradient(72deg, #b82207 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #b82207 50%, #f6f9fb 50%, #ffffff);
+  border: 1px solid #b82207;
+
 }
 .progress-90 {
-  background-image: linear-gradient(54deg, #ff6347 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #ff6347 50%, #2f3439 50%, #2f3439);
+  background-image: linear-gradient(54deg, #b82207 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #b82207 50%, #f6f9fb 50%, #ffffff);
+  border: 1px solid #b82207;
 }
 .txt-bar{
-  left: 25px;
+  /*left: 25px;*/
   font-family: 'Yantramanav', sans-serif;
   margin-bottom: 1em;
 }
 #txt-bar1{
-  left: 10px;
+  left: 15px;
 }
 #txt-bar2{
   left: 35px;
 }
 #txt-bar3{
-  left: 10px;
+  left: 15px;
 }
 #progress-bar{
   left: 5%;
@@ -302,7 +310,7 @@ td{
 
 .img-team{
   border: 8px solid white;
-  box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 0px 2px rgba(106, 99, 99, 1);
   border-radius: 100px 100px 100px 100px;
   width: 200px;
   height: 200px;
@@ -322,14 +330,14 @@ td{
   bottom: 10%;
   width: 100%;
   height: 750px;
-  background-image: url("../img/ecologia2.jpg");
+  /*background-image: url("../img/ecologia2.jpg");*/
   background-repeat: no-repeat;
   /*background-color: silver;*/
   margin-bottom: 2em;
 }
-/*#ecobg{
-  width: 100%;
-}*/
+#ecobg{
+  height: 600px;
+}
 #formulario{
   top: 50px;
 }
