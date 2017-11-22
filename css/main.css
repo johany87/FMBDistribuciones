@@ -59,7 +59,7 @@
   /*font-family: 'Courgette', cursive;*/
   /*font-family: 'Yantramanav', sans-serif;*/
   font-family: 'Yantramanav', sans-serif;
-  font-size: 150%;
+  font-size: 190%;
 }
 #hr-us{
   position: relative;
@@ -304,7 +304,7 @@ td{
   margin-bottom: 13%;
 }
 #team-stripe{
-  margin-top: 10em;
+  margin-top: 13em;
   margin-bottom: 10em;
 }
 
@@ -317,26 +317,46 @@ td{
 }
 #contact-stripe{
   height: 100%;
-  width: 100%;
-  top: 4em;
+  width: 101%;
+  margin-top: 10%;
   /*background-image: url("../img/Contact-650x487.jpg");*/
   background-image: url("http://karlburkeracing.biz/wp-content/uploads/2017/10/White-Background-89.jpg");
-  background-size: cover;
-  /*background-position: center;*/
+  /*background-image: url("../img/backgroundRed2.jpg");*/
+  /*background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  /*background-attachment: fixed;*/
+  background-attachment: fixed;*/
 }
 #eco-stripe{
-  bottom: 10%;
+  bottom: 100%;
   width: 100%;
-  height: 750px;
-  /*background-image: url("../img/ecologia2.jpg");*/
+  height: 600px;
+  background-image: url("../img/ecologia2.jpg");
   background-repeat: no-repeat;
-  /*background-color: silver;*/
-  margin-bottom: 2em;
 }
 #ecobg{
-  height: 600px;
+  width: 101%;
+  height: 200%;
+}
+.eco-text{
+  /*font-family: 'Lobster', cursive;*/
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 450%;
+  /*text-shadow: 3px 2px 3px rgb(78, 143, 20);*/
+  background-color: rgb(78, 143, 20);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+}
+hgroup{
+  margin-top: 7em;
+  margin-left: 4%;
+}
+#ecoimg{
+  width: 35%;
+  margin-left: 60%;
 }
 #formulario{
   top: 50px;
@@ -369,7 +389,7 @@ section h1{
   margin-bottom: 4em;
 }
 #credits{
-  margin-top: 6em;
+  margin-top: 1em;
   font-family: 'Yantramanav', sans-serif;
   height: 65px;
 }

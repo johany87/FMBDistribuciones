@@ -7,12 +7,14 @@
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- FONT AWESOME-->
   <script src="https://use.fontawesome.com/4b14611884.js"></script>
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Yantramanav" rel="stylesheet">
   <!--OWN LINKS-->
   <link rel="stylesheet" href="css\animate.css">
   <script type="text/javascript" src="js\wow.min.js"></script>
   <script type="text/javascript" src="js\main.js"></script>
   <link rel="stylesheet" href="css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Yantramanav" rel="stylesheet">
   <!--META DATAS-->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
@@ -30,8 +32,8 @@
   <div class="contenedor">
     <!-- -/-/-/-/-/-/-/-/-/-/-/-/-/-/ LANDING PAGE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
     <div iv class="container col-md-12" id="first-stripe">
-      <div id="jb-first-stripe">
-        <img id="logo" src="img/LogoFMB.png" alt="Logo" class="col-md-8 col-md-offset-2 animated jello">
+      <div id="jb-first-stripe" class="col-md-12">
+        <img id="logo" src="img/LogoFMB.png" alt="Logo" class="col-md-8 col-md-offset-2">
         <div class="col-md-10 col-md-offset-1 text-center text-white" id="text-first-stripe">
           <h3 class="animated bounceInRight">
             Hidrolavadoras <span>|</span>
@@ -49,7 +51,7 @@
     <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ LADING PAGE  -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
     <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ STRIPE US -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
     <div class="container col-md-12" id="stripe-us">
-      <div class="row" id="">
+      <div class="row">
         <div class="col-md-4 wow bounceInLeft" data-wow-delay="0.5s">
           <h1 class=" wow text-center text-muted" id="tittle-us">Nosotros</h1>
           <hr class="wow bounceInLeft" data-wow-delay="0.7s" id="hr-us">
@@ -117,23 +119,23 @@
     <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ PROGRES BAR -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
     <div class="container col-md-10 col-md-offset-1" id="progress-bar">
       <div class="col-md-12">
-        <h2 class="col-md-4 txt-bar wow bounceInLeft" id="txt-bar1">Experiencia</h2>
-        <h2 class="col-md-4 txt-bar wow bounceInUp" id="txt-bar2">Atención</h2>
-        <h2 class="col-md-4 txt-bar wow bounceInRight" id="txt-bar3">Disponibilidad</h2>
+        <h2 class="col-md-4 txt-bar text-muted wow bounceInLeft" id="txt-bar1">Experiencia</h2>
+        <h2 class="col-md-4 txt-bar text-muted wow bounceInUp" id="txt-bar2">Atención</h2>
+        <h2 class="col-md-4 txt-bar text-muted wow bounceInRight" id="txt-bar3">Disponibilidad</h2>
       </div>
       <div class="col-md-4 wow bounceInLeft">
         <div class="progress-radial progress-95">
-          <div class="overlay">95%</div>
+          <div class="overlay text-muted">95%</div>
         </div>
       </div>
       <div class="col-md-4 wow bounceInUp">
         <div class="progress-radial progress-90 wow bounceInUp">
-          <div class="overlay">90%</div>
+          <div class="overlay text-muted">90%</div>
         </div>
       </div>
       <div class="col-md-4 wow bounceInRight">
         <div class="progress-radial progress-90 wow bounceInRight">
-          <div class="overlay">90%</div>
+          <div class="overlay text-muted">90%</div>
         </div>
       </div>
     </div>
@@ -167,7 +169,7 @@
               <p class="text-center">
                 <i class="fa fa-mobile fa-3x" aria-hidden="true"></i>
               </p>
-              <p class="text-center"> 3112190408 | 314 4525863 <br> 310 5636374</p>
+              <p class="text-center"> +57 3112190408 | +57 314 4525863 <br> +57 310 5636374</p>
             </td>
           </tr>
         </tbody>
@@ -197,20 +199,24 @@
     <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ TEAM FMB -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
     <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ ECO-STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
     <div class="container" id="eco-stripe">
-      <img src="img/ecologia2.jpg" alt="img" id="ecobg">
-      <div >
-
-      </div>
+      <hgroup class="">
+        <h1 class="eco-text">Con nuestras máquinas podrás</h1>
+        <h1 class="eco-text">ahorrar agua y energía</h1>
+        <h1 class="eco-text">mientras cuidamos</h1>
+        <h1 class="eco-text">el medio ambiente</h1>
+      </hgroup>
+      <img id="ecoimg" src="img\LogoFMB2017Trans.png" alt="logopng">
+      <!-- <img id="ecoimg" src="img/LogoFMB.png" alt="logopng"> -->
     </div>
     <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ ECO-STRIPE -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
     <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ CONTACT-FORM -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
     <div id="contact-stripe" class="row col-md-12" >
       <section id="text-contact" class="col-md-10 col-md-offset-1">
-        <h1 class="text-center col-md-6 text-danger">Contacto</h1>
-        <div class="container col-md-6" id="formulario">
+        <h1 class="text-center col-md-6 text-danger wow fadeInLeftBig">Contacto</h1>
+        <div class="container col-md-6 wow fadeInRightBig" id="formulario">
           <div class="col-md-12">
             <div class="form-area">
-              <form role="form" action="index.php">
+              <form role="form" action="php/index.php" method="post">
                 <br style="clear:both">
                 <div class="form-group">
                   <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required>
@@ -224,12 +230,12 @@
                 <div class="form-group">
                   <textarea class="form-control" type="textarea" id="message" name="message" placeholder="Mensaje" maxlength="140" rows="7" required></textarea>
                 </div>
-                <input type="submit" id="submit" name="submit" value="Enviar" class="btn btn-danger pull-right col-md-2"></input>
+                <input type="submit" id="submit" name="submit" value="Enviar" class="btn btn-danger pull-right col-md-2">
               </form>
             </div>
           </div>
         </div>
-        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.586077873221!2d-74.11942358585381!3d4.667645843244464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b82082ec0f7%3A0x21de04e604266a2b!2sFMB+DISTRIBUCIONES!5e0!3m2!1ses!2ses!4v1508982276048" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe class="wow fadeInUpBig" id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.586077873221!2d-74.11942358585381!3d4.667645843244464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b82082ec0f7%3A0x21de04e604266a2b!2sFMB+DISTRIBUCIONES!5e0!3m2!1ses!2ses!4v1508982276048" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </section>
     </div>
     <!-- /-/-/-/-/-/-/-/-/-/-/-/-/ CONTACT-FORM -/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ -->
