@@ -63,19 +63,19 @@
 }
 #hr-us{
   position: relative;
-  top: 35px;
+  margin-top: 13%;
   width: 17%;
   border: 0;
   height: 0;
-  box-shadow: 0 0 1px 1px red;
+  box-shadow: 0 0 1px 1px #b82207;;
 }
 #hr-us2{
   position: relative;
-  top: 50px;
+  top: 10%;
   width: 10%;
   border: 0;
   height: 0;
-  box-shadow: 0 0 1px 1px red;
+  box-shadow: 0 0 1px 1px #b82207;;
 }
 #info-stripe{
   width: 100%;
@@ -96,7 +96,6 @@
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   width: 700px;
-  /*top: 25px;*/
   top: 5%;
   left: 25%;
   color: white;
@@ -278,6 +277,8 @@ td{
 .progress-95 {
   background-image: linear-gradient(72deg, #b82207 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #b82207 50%, #f6f9fb 50%, #ffffff);
   border: 1px solid #b82207;
+}
+.progress-95:hover{
 
 }
 .progress-90 {
@@ -318,14 +319,33 @@ td{
 #contact-stripe{
   height: 100%;
   width: 101%;
-  margin-top: 10%;
-  /*background-image: url("../img/Contact-650x487.jpg");*/
-  background-image: url("http://karlburkeracing.biz/wp-content/uploads/2017/10/White-Background-89.jpg");
-  /*background-image: url("../img/backgroundRed2.jpg");*/
-  /*background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;*/
+  margin-top: 5%;
+  background: rgba(254,254,254,1);
+  background: -moz-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(254,254,254,1) 34%, rgba(219,219,219,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254,254,254,1)), color-stop(34%, rgba(254,254,254,1)), color-stop(100%, rgba(219,219,219,1)));
+  background: -webkit-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(254,254,254,1) 34%, rgba(219,219,219,1) 100%);
+  background: -o-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(254,254,254,1) 34%, rgba(219,219,219,1) 100%);
+  background: -ms-linear-gradient(top, rgba(254,254,254,1) 0%, rgba(254,254,254,1) 34%, rgba(219,219,219,1) 100%);
+  background: linear-gradient(to bottom, rgba(254,254,254,1) 0%, rgba(254,254,254,1) 34%, rgba(219,219,219,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#dbdbdb', GradientType=0 );
+}
+#contact_button{
+  padding: 10px;
+  margin-top: 4em;
+  margin-bottom: 2em;
+  margin-left: 40%;
+  border: 2px solid rgb(199, 60, 60);
+  border-radius: 20px;
+  width: 25%;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 250%;
+}
+#contact_button:hover{
+  border: 2px solid white;
+  color: white;
+  background-color: rgba(208, 80, 44, 0.96);
+  box-shadow: 0px 0px 25px 15px rgba(0,0,0,0.24);
+  text-decoration: none;
 }
 #eco-stripe{
   bottom: 100%;
@@ -334,10 +354,7 @@ td{
   background-image: url("../img/ecologia2.jpg");
   background-repeat: no-repeat;
 }
-#ecobg{
-  width: 101%;
-  height: 200%;
-}
+
 .eco-text{
   /*font-family: 'Lobster', cursive;*/
   font-family: 'Yantramanav', sans-serif;
@@ -358,26 +375,10 @@ hgroup{
   width: 35%;
   margin-left: 60%;
 }
-#formulario{
-  top: 50px;
-}
-section h1{
-  top: 80px;
-}
 #text-contact{
   color: white;
 }
-#text-contact h1{
-  margin-top: 2em;
-  font-family: 'Yantramanav', sans-serif;
-  font-size: 60px;
-}
-#enviar{
-  position: relative;
-  top: 55px;
-  height: 50px;
-  font-size: 20px !important;
-}
+
 #map{
   margin-top: 10%;
   /*width: 955px;*/
@@ -386,7 +387,7 @@ section h1{
   /*margin-left: 80px;*/
   margin-left: 7%;
   /*margin-bottom: 3em;*/
-  margin-bottom: 4em;
+  margin-bottom: 6em;
 }
 #credits{
   margin-top: 1em;
